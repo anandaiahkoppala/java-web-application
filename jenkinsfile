@@ -1,6 +1,6 @@
 node{
     stage('Git Clone'){
-        git 'https://github.com/anandaiahkoppala/calcwebapp.git'
+        git 'https://github.com/anandaiahkoppala/java-web-application.git'
     }
     stage('Maven Package'){
         def mvnHome = tool name: 'Maven', type: 'maven'
