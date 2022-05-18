@@ -2,3 +2,4 @@ node{
     stage('Git Clone'){
         git 'https://github.com/anandaiahkoppala/java-web-application.git'
     }
+}
