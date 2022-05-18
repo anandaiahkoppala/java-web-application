@@ -9,3 +9,4 @@ node{
     stage('Deployment'){ 
         sh 'cp target/*.war /opt/tomcat/webapps'
     }    
+}
